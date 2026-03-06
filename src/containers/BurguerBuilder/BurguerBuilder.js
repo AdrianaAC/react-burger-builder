@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 
-import Aux from '../../hoc/Aux/Aux';
+import Aux from '../../hoc/Auxiliary/Wrapper';
 import Burguer from '../../components/Burguer/Burguer';
 import BuildControls from '../../components/Burguer/BuildControls/BuildControls';
 import Model from '../../components/UI/Model/Model';

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Model from "../../components/UI/Model/Model";
-import Aux from "../Aux/Aux";
+import Aux from "../Auxiliary/Wrapper";
 
 const withErrorHandler = (WrappedComponent, axios) => {
   return (props) => {
