@@ -1,10 +1,6 @@
 # React Burger Builder
 
-A **React learning project** that allows users to build a custom burger by adding and removing ingredients dynamically.
-
-This project focuses on practicing **React component architecture, state management and UI interactions**.
-
----
+A React learning project that lets users build a custom burger by adding and removing ingredients dynamically.
 
 ## Features
 
@@ -14,30 +10,24 @@ This project focuses on practicing **React component architecture, state managem
 - Conditional rendering for order state
 - Modular component structure
 
----
-
 ## Tech Stack
 
 - React
+- Redux
+- React Router
+- Vite
 - JavaScript
-- HTML
 - CSS
 
----
-
 ## Project Structure
-src
-├── components
-├── containers
-├── assets
-├── App.js
-└── index.js
 
-*(structure may vary slightly depending on course setup)*
+- `src/components`
+- `src/containers`
+- `src/assets`
+- `src/App.js`
+- `src/index.jsx`
 
----
-
-## Run the Project Locally
+## Run Locally
 
 Install dependencies:
 
@@ -45,23 +35,16 @@ Install dependencies:
 npm install
 ```
 
-Start the development server:
+Start development server:
+
 ```bash
-npm start
+npm run dev
 ```
 
-The application will open in your browser at http://localhost:3000
+Build production bundle:
 
----
+```bash
+npm run build
+```
 
-This project focuses on learning and practicing:
- - React component composition
- - Managing UI state
- - Passing data through props
- - Handling user interaction
- - Structuring React applications
-
-Notes
-
-This repository is part of my learning journey while studying React development.
-It is kept public as a learning reference and practice project.
+The dev app runs at `http://localhost:3000`.

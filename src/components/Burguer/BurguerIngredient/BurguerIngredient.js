@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable default-case */
 import React from "react";
-import classes from "./BurguerIngredient.css";
+import classes from "./BurguerIngredient.module.css";
 import PropTypes from "prop-types";
 
 const burguerIngredient = props => {
@@ -58,3 +58,4 @@ burguerIngredient.propTypes = {
 };
 
 export default burguerIngredient;
+

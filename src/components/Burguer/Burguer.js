@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Burguer.css";
+import classes from "./Burguer.module.css";
 import BurguerIngredient from "./BurguerIngredient/BurguerIngredient";
 
 
@@ -27,3 +27,4 @@ const burguer = (props) => {
 };
 
 export default burguer;
+
