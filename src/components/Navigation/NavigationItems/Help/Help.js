@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import Question from "../Help/Question";
 // import Answer from "../Help/Answer";
-import classes from "./Help.css";
+import classes from "./Help.module.css";
 
 const faqArray = [
   {

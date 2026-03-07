@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button from "../../../components/UI/Button/Button";
-import classes from "./ContactData.css";
+import classes from "./ContactData.module.css";
 import Spinner from "../../../components/UI/Spinner/Spinner";
 import Input from "../../../components/UI/Input/Input";
 import { connect } from "react-redux";
@@ -196,3 +196,4 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(contactData);
+

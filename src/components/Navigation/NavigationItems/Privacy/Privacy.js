@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import classes from "./Privacy.css";
+import classes from "./Privacy.module.css";
 
 class Privacy extends Component {
   render() {
@@ -644,3 +644,4 @@ class Privacy extends Component {
 }
 
 export default Privacy;
+

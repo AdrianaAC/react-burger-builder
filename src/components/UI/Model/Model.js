@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Model.css";
+import classes from "./Model.module.css";
 import Aux from "../../../hoc/Auxiliary/Wrapper";
 import Backdrop from "../Backdrop/Backdrop";
 
@@ -26,3 +26,4 @@ export default React.memo(
     nextProps.show === prevProps.show &&
     nextProps.children === prevProps.children
 );
+
